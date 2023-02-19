@@ -1,0 +1,33 @@
+.navbar {
+    width:100%;
+    height:100px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+
+    h1 {
+        color:green;
+    }
+
+    span {
+        color: whitesmoke;
+    }
+
+    .leftside {
+        flex: 90%;
+        height:100%;
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+    }
+
+    .rightside {
+        flex: 30%;
+        height:100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 40px;
+    }
+}
+

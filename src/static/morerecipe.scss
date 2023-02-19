@@ -1,0 +1,57 @@
+.more-wrapper {
+    width:65%;
+    margin: auto;
+
+    .banner-image {
+        background-size:cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height:200px;
+        width:100%;
+    }
+
+    a {
+        position:relative;
+        top:60%;
+        color:white;
+        font-size:40pt;
+        left:10px;
+    }
+
+    .write {
+        float: right;
+        margin-top: 5px;
+        margin-bottom:10px;
+        
+
+    }
+}
+
+.write-box {
+    margin-top:40px;
+
+    .write-title {
+        margin-bottom:20px;
+    }
+
+    .file {
+        margin-top:20px;
+    }
+
+    .editorWrapper {
+        height: 300px;
+        overflow:scroll;
+
+        .editor {
+            height: 100%;
+            border: none;
+        }
+    }
+
+    .submit {
+        margin-top:30px;
+
+    }
+    
+
+}
