@@ -24,6 +24,8 @@ function MoreRecipes({ handleSelect, select}) {
         return e.name === select;
     })
 
+
+
     const toggleWrite = (e) => {
         setWrite(e)
     }
@@ -35,6 +37,10 @@ function MoreRecipes({ handleSelect, select}) {
 
     const [recipes, setRecipes] = useState([])
 
+    const filterTest = recipes.filter(e => {
+        return e.food === select
+    })
+
     useEffect(()=> {
         const fetchData = async ()=> {
             try {
@@ -45,7 +51,7 @@ function MoreRecipes({ handleSelect, select}) {
             }
         }
         fetchData()
-    },[])
+    },[write])
 
     console.log(fruit)
     console.log(fruit[0].other)
@@ -76,15 +82,19 @@ function MoreRecipes({ handleSelect, select}) {
         }) :
         <Write toggleWrite={toggleWrite} select={select}/>
     }
-    { !recipes.length ? <></>: <>
-          {recipes.map((recipes, key)=> {
+    { !filterTest.length ? <></>: <>
+          {filterTest.map((recipes, key)=> {
         return(
+            <>
         <CustomList
         key={key}
         name={recipes.title}
         img={recipes.img}
-        info={getText(recipes.desc)}
+        info={getText(recipes.description)}
          />
+         <div className='line' style={{backgroundImage: `url(${line})`}}></div>
+         <br/>
+         </>
         )} 
            
       )}      

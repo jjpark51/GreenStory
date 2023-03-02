@@ -6,7 +6,7 @@ function Info({select, fruit}) {
     <div>
       <div className='title-wrapper'>
         <div className='nutrients'>
-        Nutrients: {fruit[0].nutrient.map((e,key) => {
+       <b>Nutrients:</b> {fruit[0].nutrient.map((e,key) => {
           return(<>
             <a style={{marginRight: "9px"}}>{e}</a>
             
@@ -15,11 +15,11 @@ function Info({select, fruit}) {
         })}
         </div>
         <div className='food-description'>
-        How To Pick: <br/>
+        <b>How To Pick: </b><br/>
         {fruit[0].pick}
         </div>
         <div className='food-image'>
-          Season: <br/>
+          <b>Season: </b> <br/>
           {fruit[0].season}
         </div>
 

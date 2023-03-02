@@ -1,4 +1,4 @@
-import React , {useState} from 'react'
+import React , {useState, useEffect} from 'react'
 
 import ReactQuill from 'react-quill'
 import 'react-quill/dist/quill.snow.css'
@@ -6,6 +6,9 @@ import 'react-quill/dist/quill.snow.css'
 import '../../static/morerecipe.scss'
 import Axios from 'axios'
 import { Navigate , useLocation} from 'react-router-dom'
+import { selectClasses } from '@mui/material'
+import { useContext } from "react";
+import { AuthContext } from "../../context/authContext";
 
 function Write({toggleWrite, select}) {
 
@@ -14,6 +17,11 @@ function Write({toggleWrite, select}) {
     const [title, setTitle] = useState("")
  
     const [file, setFile] = useState(null);
+    const [food, setFood] = useState(select)
+    const [user, setUser] = useState([]);
+
+    const { currentUser } = useContext(AuthContext);
+
 
 
     console.log("This is the fruit for the write page")
@@ -29,10 +37,24 @@ function Write({toggleWrite, select}) {
         console.log(err)
       }
     }
+
+
+  useEffect(() => {
+    Axios.get('http://localhost:8800/api/auth/username')
+      .then(response => {
+        console.log("This is the user data")
+        console.log(response.data)
+        setUser(response.data);
+      })
+      .catch(error => {
+        console.error(error);
+      });
+  }, []);
     
     const handleClick = async (e)=> {
       e.preventDefault()
       const imgUrl = await upload()
+
 
       try {
 
@@ -40,6 +62,8 @@ function Write({toggleWrite, select}) {
           title,
           desc: value,
           img: file ? imgUrl: "",
+          food: food,
+          user: currentUser.username
         }).then((response)=> {
           console.log(response)
           console.log(value)

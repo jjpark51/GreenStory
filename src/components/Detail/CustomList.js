@@ -3,6 +3,13 @@ import '../../static/description.scss'
 
 function CustomList({name, img, info}) {
 
+  console.log(img)
+
+  const imageStyles = {
+    width: '200px',
+    height: '100px',
+  };
+
   return (
 
 
@@ -13,7 +20,8 @@ function CustomList({name, img, info}) {
   <div className='recipe-info'>
       {info}
   </div>
-      <div className='recipe-image' style={{backgroundImage: `url(../../../public/upload/${img})`}}></div>
+  <div className='recipe-image'><img src={`../upload/${img}`} alt="Failed" /></div>
+  
             
 </div>
   )

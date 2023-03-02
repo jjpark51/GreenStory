@@ -11,12 +11,9 @@ function Footer() {
     <div className='footer'>
         <div className='socialMedia'>
             <InstagramIcon />
-            <TwitterIcon />
-            < FacebookIcon />
-            <LinkedInIcon />
             <GithubIcon />
         </div>
-        <p>&copy; 2023 jinsukpizza.com </p>
+        <p>&copy; 2023 Jinsuk Park </p>
     </div>
   )
 }

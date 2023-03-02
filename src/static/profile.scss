@@ -23,16 +23,19 @@
 
         .leftside {
             width:50%;
-            background:green;
             text-align: center;
+            border: 1px solid black;
+            border-right: 0px;
+            border-bottom-left-radius: 8px;
             
             
         }
 
         .rightside {
             width:50%;
-            background: blue;
             text-align: center;
+            border: 1px solid black;
+            border-bottom-right-radius: 8px;
         }
 
     }

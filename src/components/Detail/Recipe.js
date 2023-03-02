@@ -21,7 +21,7 @@ function Recipe({fruit, handleSelect, select}) {
             <div className='recipe-container'>
               <div className='headfont'><a style={{color: "green", fontSize: "30pt", fontWeight : "400"}}>Recipes</a> <Link to='/morerecipe' action='replace' onClick={()=> handleSelect(select)} ><AddBoxIcon /> </Link ><br/></div>
               <div className='recipe-title'>
-              <h1>{fruit[0].recipe.name} {like === false ? <FavoriteBorderIcon style={{color: 'red'}} onClick={()=> toggleLike(true)}/> : <FavoriteIcon style={{color: 'red'}} onClick={()=> toggleLike(false)}/>} </h1>
+              <h1>{fruit[0].recipe.name}  </h1>
               </div>
               <div className='recipe-info'>{fruit[0].recipe.info}</div>
               <div className='recipe-steps'><h2>How To Make</h2>

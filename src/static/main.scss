@@ -41,7 +41,6 @@
     background-image: url(../assets/img/green.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    width:100%;
     min-height:100vh;
     z-index: 1;
     position:relative;
@@ -77,6 +76,7 @@
     background-color: black;
     opacity:0.7;
     z-index: -1;
+    width:100%;
 }
 
 .about-back {
@@ -91,6 +91,7 @@
         left:250px;
         font-weight:800;
         font-size:60pt;
+        width:60%;
 
         p {
             font-size:24pt;

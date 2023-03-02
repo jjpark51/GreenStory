@@ -1,12 +1,8 @@
-import React , {useEffect, useState}  from 'react'
+import React from 'react'
 import '../../static/profile.scss'
-import '../../static/description.scss'
 
-
-
-function MyRecipe({name, img, info}) {
-
- 
+function todayRecipe({name, img, info}) {
+  
   const getText = (html) =>{
     const doc = new DOMParser().parseFromString(html, "text/html")
     return doc.body.textContent
@@ -26,4 +22,4 @@ function MyRecipe({name, img, info}) {
   )
 }
 
-export default MyRecipe
+export default todayRecipe
