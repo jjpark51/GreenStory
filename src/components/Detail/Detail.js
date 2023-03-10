@@ -19,13 +19,9 @@ function Detail({select, handleSelect}) {
   return (
     <div className='wrapper'>
         <Description select={select} fruit={selectFruit}/>
-        <div className='line' style={{backgroundImage: `url(${line})`}}></div>
         <Info select={select} fruit={selectFruit}/>
-        <div className='line' style={{backgroundImage: `url(${line})`}}></div>
         < Benefits select={select} fruit={selectFruit}/>
-        <div className='line' style={{backgroundImage: `url(${line})`}}></div>
         <Recipe select={select} fruit={selectFruit} handleSelect={handleSelect}/>
-        <div className='line' style={{backgroundImage: `url(${line})`}}></div>
         <Content select={select} fruit={selectFruit}/>
       
     </div>

@@ -147,7 +147,7 @@ export const FruitList = [
         name: 'Kiwi',
         color: 'Green',
         info: 'Kiwi is a fruit rich in vitamin C. Its vitamin C is higher than that of lemons, and eating one can provide almost a daily requirement. It contains not only vitamin C, but also vitamin E and polyphenols, so it has a strong antioxidant effect. It is also attractive that it is rich in potassium, which helps prevent high blood pressure, and dietary fiber, which suppresses the rise of blood sugar levels.',
-        season: [1, 12],
+        season: ['All year round'],
         img: Kiwi,
         nutrient: ['Vitamin E, Vitamin C', 'Potassium'],
         pick: 'Choose one with dense hairs on the surface of the shell.',

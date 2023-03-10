@@ -82,7 +82,7 @@ function MoreRecipes({ handleSelect, select}) {
         }) :
         <Write toggleWrite={toggleWrite} select={select}/>
     }
-    { !filterTest.length ? <></>: <>
+    { !filterTest.length || write === true ? <></>: <>
           {filterTest.map((recipes, key)=> {
         return(
             <>

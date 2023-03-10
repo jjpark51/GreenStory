@@ -16,16 +16,18 @@ function Write({toggleWrite, select}) {
     const [value, setValue] = useState( "")
     const [title, setTitle] = useState("")
  
-    const [file, setFile] = useState(null);
+    const [file, setFile] = useState(null); // Here we are setting the image file
     const [food, setFood] = useState(select)
     const [user, setUser] = useState([]);
 
-    const { currentUser } = useContext(AuthContext);
+    const { currentUser } = useContext(AuthContext); // We can bring the user info without passing it through the props
 
 
 
     console.log("This is the fruit for the write page")
     console.log(select)
+    console.log("This is the file name")
+  
 
     const upload = async ()=> {
       try {
@@ -34,6 +36,7 @@ function Write({toggleWrite, select}) {
         const res = await Axios.post('http://localhost:8800/api/upload', formData)
         return res.data
       }catch (err) {
+        console.log("This is an upload error")
         console.log(err)
       }
     }
@@ -54,6 +57,8 @@ function Write({toggleWrite, select}) {
     const handleClick = async (e)=> {
       e.preventDefault()
       const imgUrl = await upload()
+      console.log(file)
+      console.log(file.name)
 
 
       try {

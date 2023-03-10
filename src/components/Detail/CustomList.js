@@ -1,3 +1,4 @@
+import { style } from '@mui/system';
 import React from 'react'
 import '../../static/description.scss'
 
@@ -20,7 +21,7 @@ function CustomList({name, img, info}) {
   <div className='recipe-info'>
       {info}
   </div>
-  <div className='recipe-image'><img src={`../upload/${img}`} alt="Failed" /></div>
+  <div className='recipe-image' ><img src={`../upload/${img}` } style={{height: '200px', width: '200px', borderRadius: '14px'} } alt="Failed" /></div>
   
             
 </div>
