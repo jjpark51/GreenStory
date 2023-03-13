@@ -143,7 +143,6 @@ This section shows all user recipes created by the logged in user.
     "tachyons": "^4.12.0",
     "web-vitals": "^2.1.4"
 ```
-[image](public/img/)
 
 ## Backend
 
