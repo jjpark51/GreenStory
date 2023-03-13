@@ -1,6 +1,6 @@
 # GreenStory
 
-<img src-"">
+![image](public/스크린샷 2023-03-13 185656.png)
 
 <br>
 This is a Healthy Recipe Community Platform which I made as a personal project using React 18, Node.js, MySQL and Sass.
