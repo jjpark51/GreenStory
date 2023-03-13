@@ -2,8 +2,6 @@
 
 ![image](public/main1.png)
 
-<img src="/public/스크린샷 2023-03-13 185656.png" style="height: 300px; width:300px")
-
 <br>
 This is a Healthy Recipe Community Platform which I made as a personal project using React 18, Node.js, MySQL and Sass.
 
@@ -24,7 +22,7 @@ I developed this website based on my experience living alone. Whenever I cooked 
 
 ### Sign Up
 
-<img src-"">
+![image](public/signup.png)
 
 If the user hasn’t already signed up then they can click on the sign-up button on the upper right box and fill in their information. 
 
@@ -35,7 +33,7 @@ If the user hasn’t already signed up then they can click on the sign-up button
 
 ### Login 
 
-<img src="">
+![image](public/login.png)
 
 -	The user will type in his username, email, and password to create an account.
 -	Check id duplicate: The duplicate button checks whether the id is already in the database. But the same id and different user types can be allowed to register on this web page. 
@@ -47,14 +45,15 @@ If the user hasn’t already signed up then they can click on the sign-up button
 
 ### Home Page
 
-<img src="">
+![image](public/main1.png)
+![image](public/main2.png)
 
 This is the home page of our website. It consists of two images that can be seen when the user scrolls down. The text displays the site’s motives and ideals: A healthy diet. We can move to other pages when we click on the navigation bar at the top. The navigation bar consists of 5 buttons: home page, tag, color, profile, and logout. The ‘Green Story’ homepage button brings us back to the current page. The tag button will take us to the page that lists the food by its tags (benefits that the food may bring). The color button will take us to the page that lists the food by color (e.g broccoli – green, carrot – orange). The logout button will log the user out and bring them back to the previous login page. 
 
 
 ###  Tags Page
 
-<img src="">
+![image](public/tags.png)
 
 -	Identify foods based on their benefits: The user can identify foods that are for his supposed purpose. For instance, let’s say that the user wants to know about foods that can make his skin healthier. The user can conveniently see all of the available foods that are known for that purpose. 
 -	Scroll through the foods: The user can also use the scroll bar to look through the foods in case there were too many foods to display on the screen. 
@@ -64,7 +63,7 @@ When we click on the card it will take us to the detail page which will show the
 
 ### Color Page
 
-<img src="">
+![image](public/color.png)
 
 Unlike the tag page, this page organizes the products by their color which provides the user with an intuitive method to search for a product. Green, red, white, and orange are the colors provided. 
 2)	Click on Card:
@@ -73,8 +72,9 @@ When we click on the card it will take us to the detail page which will show the
 
 ### Product Detail Page
 
-<img src="">
-<img src="">
+![image](public/apple.png)
+![image](public/benefits.png)
+![image](public/youtube.png)
 
 This is the product detail page. This page shows the page product information about each card
 
@@ -96,6 +96,9 @@ This feature allows users to view other people's recipes, giving them many optio
 
 ### More Recipe Page
 
+![image](public/morerecipe.png)
+![image](public/custom.png)
+
 This page shows user recipes for the product or provides a function for users to add their own recipes.
 1)	function switching button
 When the user clicks this button, it switches to a screen showing user recipes or a screen to add recipes.
@@ -108,6 +111,7 @@ After writing, when the finish button is clicked, the user recipe is sent to the
 
 ### Profile Page
 
+![image](publlic/profile.png)
 
 This page shows recipes that logged-in users created
 1)	Today’s recipe
