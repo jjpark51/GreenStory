@@ -15,7 +15,6 @@ I developed this website based on my experience living alone. Whenever I cooked 
 * Features
 * Instructions and Navigation
 * Dependencies
-* Works
 * License
 
 ## Features
@@ -111,7 +110,7 @@ After writing, when the finish button is clicked, the user recipe is sent to the
 
 ### Profile Page
 
-![image](publlic/profile.png)
+![image](public/profile.png)
 
 This page shows recipes that logged-in users created
 1)	Today’s recipe
