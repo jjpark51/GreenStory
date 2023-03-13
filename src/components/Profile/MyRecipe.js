@@ -20,7 +20,7 @@ function MyRecipe({name, img, info}) {
   <div className='recipe-info'>
       {getText(info)}
   </div>
-      <div className='recipe-image' style={{backgroundImage: `url(../../../public/upload/${img})`}}></div>
+      <div className='recipe-image' style={{backgroundImage: `url(./upload/${img})`}}></div>
             
 </div>
   )

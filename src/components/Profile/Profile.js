@@ -6,6 +6,7 @@ import MyRecipe from './MyRecipe';
 import TodayRecipe from './TodayRecipe';
 import { useContext } from "react";
 import { AuthContext } from "../../context/authContext";
+import { FruitList } from '../../assets/test';
 
 import Axios from 'axios'
 
@@ -32,7 +33,7 @@ function Profile() {
         try {
           const res = await Axios.get(`http://localhost:8800/api/recipe/`);
           setList(res.data);
-          console.log("This is the recipe list")
+          console.log("This is the custom recipe list")
           console.log(list)
         } catch (err) {
           console.log(err);
@@ -71,23 +72,23 @@ function Profile() {
 
         {recipe === false ?
 
-            myFilter.map((list, key)=> {
+            myFilter.map((e, key)=> {
               return(
               <MyRecipe
               key={key}
-              name={list.title}
-              img={list.img}
-              info={getText(list.desc)}
+              name={e.title}
+              img={e.img}
+              info={getText(e.description)}
               />
               )} 
                 
             )      : 
 
-        <TodayRecipe />
+        <TodayRecipe name={FruitList[0].other[0].name} img={FruitList[0].other[0].img} info={FruitList[0].other[0].info} />
         
     }
 
-      
+      <br/>
     </div>
   )
 }

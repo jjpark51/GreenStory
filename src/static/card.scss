@@ -27,6 +27,9 @@
         margin-left:50px;
         margin-bottom:50px;
         border: 1px solid black;
+        cursor:pointer;
+        transition: transform 0.2s ease-in-out;
+
 
         .card-image {
             height:240px;
@@ -43,5 +46,10 @@
             font-size:30pt;
             text-align: center;
         }
+    }
+
+    .card:hover {
+        transform: scale(1.05);
+
     }
 }

@@ -53,12 +53,7 @@ function MoreRecipes({ handleSelect, select}) {
         fetchData()
     },[write])
 
-    console.log(fruit)
-    console.log(fruit[0].other)
 
-    for(let i = 0; i < fruit[0].other.length; i++) {
-        console.log(fruit[0].other[i].name)
-    }
   return (
     <div className='more-wrapper'>
         <div className='banner-image' style={{backgroundImage: `url(${BannerImg})`}}><a>More Recipes</a></div>

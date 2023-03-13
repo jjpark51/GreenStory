@@ -42,8 +42,13 @@ import Pepper from '../assets/img/pepper.png'
 import PickedTurnips from '../assets/img/pickled_turnips.jpg'
 import Strawberry from '../assets/img/strawberry.jpg'
 import Tomato from '../assets/img/tomato.png'
-import Turnip from '../assets/img/turnip.png'  
-
+import Turnip from '../assets/img/turnip.png'
+import KiwiSmoothie from '../assets/img/kiwismoothie.jpeg'
+import MandarinSyrup from '../assets/img/mandarin_soup.jfif'
+import CrownDaisydj from '../assets/img/crowndaisydj.webp'
+import SteamedMustard from '../assets/img/greenonionsoup.jpg'
+import Pakchoisalad from '../assets/img/pakchoisalad.jpg'
+import TomatoJuice from '../assets/img/tomatojuice.jpg'
 
 export const FruitList = [
     {
@@ -162,7 +167,7 @@ export const FruitList = [
             'Blender with a cup of water, sliced kiwis, 1 tablespoon of sugar.',
             'If you put ice in the blender, you can enjoy it as a shake.']},
         other: [{name: 'Kiwi Smoothie',
-                img: '',
+                img: KiwiSmoothie,
                 info: '',
                 how: ['We slice the kiwi into small bits and then place them inside a cup. We then go on to poor milk into the cup and add ice. Fin.']}],
         youtube: [<iframe width="100%" height="400" src="https://www.youtube.com/embed/0RvXsbkSGtY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>,
@@ -201,7 +206,7 @@ export const FruitList = [
    'Recover from Fatigue',
    'Osteoporosis Prevention'],
     recipe: {name: 'Mandarine Syrup',
-    img: '',
+    img: MandarinSyrup,
     info: '',
     how: ['Peel 3 mandarine and cut them into bite-sized pieces so you can put into bottle.',
     'Pour mandarine and sugar alternately into the bottle.',
@@ -271,10 +276,10 @@ export const FruitList = [
      info: '',
      how: ['For 1 layer of crown daisy, use the tender leaf part. Cut the 10cm long green onion in half and shred it. Tear 1 sheet of toasted seaweed into small pieces with your hands.',
       'Chop crown daisy, green onion, and seaweed into a bowl, and sprinkle with a dressing of 2 teaspoons each of soy sauce, vinegar, and salad oil and 1/2 teaspoon of sugar.']},
-    other: [{name: 'new_recipe',
-      img: '',
-      info: '',
-      how: ['we make ~~~~']}],
+    other: [{name: 'Crown Daisy Tofu Soup',
+      img: CrownDaisydj,
+      info: 'Bring the chicken or vegetable broth to a boil in a large pot. Add the tofu, crown daisy, green onions, soy sauce, and sesame oil. Reduce heat and simmer for 10-15 minutes until the vegetables are tender and the tofu is heated through. Serve hot and enjoy!',
+      how: ['']}],
     youtube: [<iframe width="100%" height="400" src="https://www.youtube.com/embed/EtLNZkT6qE4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>,
      <iframe width="100%" height="400" src="https://www.youtube.com/embed/Tg2ZWLEuWm8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>]},
    {name: 'Green Onion',
@@ -289,13 +294,13 @@ export const FruitList = [
      'Recover from Fatigue',
      'Stomach ulcer Prevention'],
     recipe: {name: 'Steamed Green Onion and Mustard Soybean Paste',
-     img: '',
+     img: SteamedMustard,
      info: '',
      how: ['Cut 1 strip of green onion into 5cm lengths.',
       'Arrange the green onions side by side on a heat-resistant dish, sprinkle with 1 tablespoon of water, cover with plastic wrap, and heat in the microwave for 2 minutes.',
       'Put the green onion in a bowl and pour the sauce made by mixing 1 tablespoon each of soybean paste and vinegar, 1 teaspoon sugar, and 1/2 teaspoon light mustard.']},
     other: [{name: 'Pak Choi Salad',
-      img:  '',
+      img:  Pakchoisalad,
       info: '',
       how: ['Chop it up into small pieces and add some other vegetables']}],
     youtube: [<iframe width="100%" height="400" src="https://www.youtube.com/embed/-p_5xjsxESg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>,
@@ -317,8 +322,8 @@ export const FruitList = [
      how: ['After cutting the root of 1 bok choy, cut it into bite-size pieces.',
       'Fry in a frying pan with minced garlic, beef and oyster sauce',
       'You can also enjoy it deliciously by stir-frying it with seafood or pork instead of beef.']},
-    other: [{name: 'aaaa', img: '', info: '', how: ['aaaa']},
-     {name: 'new_recipe', img: '', info: '', how: ['new_recipe']}],
+    other: [{name: '', img: '', info: '', how: ['']},
+     {name: '', img: '', info: '', how: ['']}],
     youtube: [<iframe width="100%" height="400" src="https://www.youtube.com/embed/lh1qsGDFLhs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>,
      <iframe width="100%" height="400" src="https://www.youtube.com/embed/ANisqQXUR7c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>]},
    {name: 'Tomato',
@@ -333,7 +338,7 @@ export const FruitList = [
      'Cancer Prevention',
      'Osteoporosis Prevention'],
     recipe: {name: 'Tomato Juice',
-     img: '',
+     img: TomatoJuice,
      info: '',
      how: ['Peel 2 tomato and cut them into bite-sized pieces so you can grind them.',
       'Blender with a cup of water, sliced tomato, 1 tablespoon of sugar.',

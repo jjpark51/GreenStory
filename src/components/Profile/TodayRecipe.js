@@ -16,7 +16,7 @@ function todayRecipe({name, img, info}) {
   <div className='recipe-info'>
       {getText(info)}
   </div>
-      <div className='recipe-image' style={{backgroundImage: `url(../../../public/upload/${img})`}}></div>
+      <div className='recipe-image' style={{backgroundImage: `url(${img})`}}></div>
             
 </div>
   )
