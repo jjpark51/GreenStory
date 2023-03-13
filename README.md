@@ -11,9 +11,12 @@ I developed this website based on my experience living alone. Whenever I cooked 
 <br>
 <br>
 
+
+
 ##Table of Contents
 * Features
 * Dependencies
+* Backend
 * License
 
 ## Features
@@ -141,6 +144,10 @@ This section shows all user recipes created by the logged in user.
     "web-vitals": "^2.1.4"
 ```
 [image](public/img/)
+
+## Backend
+
+https://github.com/jjpark51/GreenStory-Backend
 
 
 ## [License]
