@@ -13,7 +13,6 @@ I developed this website based on my experience living alone. Whenever I cooked 
 
 ##Table of Contents
 * Features
-* Instructions and Navigation
 * Dependencies
 * License
 
@@ -119,9 +118,6 @@ If the user visits this page first, the user can see a recipe that we recommend 
 This section shows all user recipes created by the logged in user.
 
 
-## Instructions and Navigations
-
-* Our code is written in JSX, React and developed in a Node.js environment and uses MySQL as the database.
 
 ## Dependencies
 ```javascripty
