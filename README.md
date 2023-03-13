@@ -1,6 +1,6 @@
 # GreenStory
 
-[image](public/main.png)
+[image](public/main1.png)
 
 <img src="/public/스크린샷 2023-03-13 185656.png" style="height: 300px; width:300px")
 
