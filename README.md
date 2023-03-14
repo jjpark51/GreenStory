@@ -13,7 +13,7 @@ I developed this website based on my experience living alone. Whenever I cooked 
 
 
 
-##Table of Contents
+## Table of Contents
 * Features
 * Dependencies
 * Backend
