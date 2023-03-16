@@ -5,7 +5,7 @@
 <br>
 This is a Healthy Recipe Community Platform which I made as a personal project using React 18, Node.js, MySQL and Sass.
 
-I developed this website based on my experience living alone. Whenever I cooked my own meals, I always wondered what the were the particular health benefits of the food that I ate. For instance, if I ate broccolli, I was curious how this food will benefit my body and the types of recipes that could be made using this particular type of food. Furthermore, I thought it would be great if I could easily share my own recipes with others.
+I developed this website based on my experience living alone. Whenever I cooked my own meals, I always wondered what were the particular health benefits of the food that I ate. For instance, if I ate broccolli, I was curious how it will benefit my body and the types of recipes that could be made using this particular type of food. Furthermore, I thought it would be great if I could easily share my own recipes with others.
 
 
 <br>
