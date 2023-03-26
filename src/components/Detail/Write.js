@@ -57,8 +57,6 @@ function Write({toggleWrite, select}) {
     const handleClick = async (e)=> {
       e.preventDefault()
       const imgUrl = await upload()
-      console.log(file)
-      console.log(file.name)
 
 
       try {
